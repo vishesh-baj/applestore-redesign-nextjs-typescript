@@ -49,6 +49,7 @@ export default Home;
 
 // ? Backend Code
 export const getServerSideProps: GetServerSideProps = async () => {
+  const categories = await fetchCategories();
   return {
     props: {},
   };
