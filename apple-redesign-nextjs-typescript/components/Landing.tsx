@@ -23,7 +23,7 @@ const Landing = () => {
           </a>
         </div>
       </div>
-
+      {/* relative container which is hidden for mobile view */}
       <div className="relative hidden h-[400px] w-[450px] transition-all duration-500 md:inline lg:h-[650px] lg:w-[600px]">
         <Image
           alt="image"
