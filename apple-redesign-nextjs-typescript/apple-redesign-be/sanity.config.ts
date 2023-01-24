@@ -14,9 +14,9 @@ const devOnlyPlugins = [visionTool()]
 
 export default defineConfig({
   name: 'default',
-  title: 'apple-redesign',
+  title: 'apple-redesign-be',
 
-  projectId: 'rel12e3g',
+  projectId: '2gnvwxph',
   dataset: 'production',
 
   plugins: [
