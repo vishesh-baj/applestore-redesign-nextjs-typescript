@@ -1,6 +1,9 @@
 import Image from "next/image";
+import { isAbsolute } from "path";
 import React from "react";
 import Button from "./Button";
+
+// const there are so many landing pages that are specific to the controllable component that is provided in such sense of the matter
 
 const Landing = () => {
   return (
@@ -20,6 +23,7 @@ const Landing = () => {
           </a>
         </div>
       </div>
+
       <div className="relative hidden h-[400px] w-[450px] transition-all duration-500 md:inline lg:h-[650px] lg:w-[600px]">
         <Image
           alt="image"
